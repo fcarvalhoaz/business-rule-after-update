@@ -6,7 +6,7 @@
     
 	if(gr.get(current.task)){
         gr.setValue('u_delay_sla', true);
-		gr.update();
+	gr.update();
     }
 
 })(current, previous);
